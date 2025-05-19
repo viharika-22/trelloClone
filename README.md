@@ -15,7 +15,7 @@ This is a simple **Trello clone** built using **React** and **Redux Toolkit**, a
 - `Mainbody` – Shows the selected board with its lists and cards.
 - `Header` – Includes the logo, search bar, and a profile icon.
 ## 📽 Demo Video
- ![Trello Clone Demo](demo.gif)
+ ![Trello Clone Demo](demoVideo.gif)
   
 
 ## 🚀 Getting Started

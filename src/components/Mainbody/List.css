@@ -1,0 +1,119 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid hsl(272, 29%, 65%);
+  height: fit-content;
+  border-radius: 6px;
+  margin: 0 20px;
+  width: 15rem;
+  background-color: rgba(
+    197,
+    174,
+    224,
+    0.2
+  ); /* 50% transparent version of #c5aee0 */
+  transition: border 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.listContainer:hover {
+  background-color: rgba(197, 174, 224, 0.3);
+  border: 3px solid #c5aee0;
+  box-shadow: 0 4px 12px rgba(197, 174, 224, 0.3);
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.listHeader {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+  height: 35px;
+}
+.listTitle > h4 {
+  margin: 10px;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.btns > div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 6px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.btns > div:hover {
+  border-radius: 6px;
+  background-color: rgb(100, 82, 155);
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showInputBtn {
+  border: none;
+  margin: 20px;
+  background-color: #a88dc0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #e0d8f4;
+  cursor: pointer;
+}
+.showInputBtn:hover {
+  background-color: #b495d9;
+  box-shadow: 0 0 8px rgb(155 117 203 / 50%);
+  transform: scale(1.05);
+}
+.addCardSection {
+  flex-direction: column;
+  display: flex;
+  margin: 20px;
+}
+.addCardSection>input{
+  border-radius: 10px;
+  height: 2.2rem;
+background: rgba(173, 155, 188, 0.07);
+  padding: 0 1rem;
+  color: #e0d8f4;;
+  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+.addCardSection>input::placeholder{
+  color: #e0d8f4;
+   opacity: 0.8;
+}
+.addCardSection>input:focus{
+  outline: none;
+  box-shadow: 0 0 8px rgba(198, 153, 255, 0.6);
+  border: 1px solid rgba(198, 153, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.cardButtons{
+ 
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.cardButtons>button{
+  margin-top: 4px;
+  border: none;
+   padding: 3px;
+  border-radius: 6px;
+   color: #e0d8f4;
+  background-color: #a88dc0;
+}

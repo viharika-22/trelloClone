@@ -1,0 +1,47 @@
+.mainbodyContainer {
+  border-radius: 8px;
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  color: #d3bfff;
+  width: 87%;
+  margin-left: 5px;
+  background: linear-gradient(135deg, #2b1f4b, #6a1f6b)
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
+  height: 3.5rem;
+  background-color: rgba(0, 0, 0, 0.3); /* Black with 30% opacity */
+}
+
+.mainHeader > h3 {
+  margin-left: 2rem;
+  padding: 6px;
+}
+.mainHeader > h3:hover {
+  border-radius: 6px;
+  background-color: rgb(100, 82, 155);
+}
+.listCont {
+  flex-direction: row;
+  display: flex;
+  margin: 1rem;
+}
+.editBoardTitleInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e0d8f4;
+  color: #e0d8f4;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  padding: 6px;
+  width: 300px;
+}
+.editBoardTitleInput:focus {
+  outline: none;
+  border-color: #c599ff;
+}
+
